@@ -39,5 +39,5 @@ export const experiences = [
       'Profissional com experiência em suporte técnico e liderança de equipe, com forte atuação na organização e melhoria de fluxos de atendimento. Responsável pela gestão de times e acompanhamento de métricas (KPIs), utilizando ferramentas como Zendesk, ServiceDesk e Jira. Implementação de processos internos padronizados para otimização da operação e melhor experiência do usuário. Perfil analítico, comunicativo e orientado a resultados, com participação ativa em ambientes colaborativos e ágeis.',
     dateWork: 'Abril 2022 - Mar 2024',
     copetencias: ExperienciasSouyess,
-  }
+  },
 ]

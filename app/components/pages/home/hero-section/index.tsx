@@ -19,6 +19,7 @@ const Experiencias = [
 
 export const HeroSection = () => {
   const [tipeImagem, setTipeImagem] = useState('/images/amanda.jpeg')
+
   return (
     <section className="w-full lg:h-full bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[110px]">
       <ParticleComponent />
@@ -38,6 +39,7 @@ export const HeroSection = () => {
               profissional
             </motion.span>
           </span>
+
           <h2 className="text-4xl font-medium mt-2 text-fuchsia-300">
             <Typewriter
               words={[
@@ -53,12 +55,16 @@ export const HeroSection = () => {
               delaySpeed={2000}
             />
           </h2>
+
           <p className="text-gray-200 my-6 text-base sm:text-base">
-            A constante vontade de evoluir é o que me impulsiona. Encaro cada desafio como uma 
-            oportunidade de me superar, expandir meu conhecimento e crescer tanto profissional quanto pessoalmente. 
-            A jornada na programação é uma estrada sem fim — e estou empolgada para trilhá-la, sempre buscando me tornar 
-            a melhor desenvolvedora que posso ser.
+            A constante vontade de evoluir é o que me impulsiona. Encaro cada
+            desafio como uma oportunidade de me superar, expandir meu
+            conhecimento e crescer tanto profissional quanto pessoalmente. A
+            jornada na programação é uma estrada sem fim — e estou empolgada
+            para trilhá-la, sempre buscando me tornar a melhor desenvolvedora
+            que posso ser.
           </p>
+
           <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[550px]">
             {Experiencias.map((value, i) => (
               <TechBadge
@@ -72,6 +78,7 @@ export const HeroSection = () => {
             ))}
           </div>
         </motion.div>
+
         <div className="w-full lg:h-[500px] flex items-center justify-center lg:ml-36">
           <AnimatePresence mode="wait">
             <motion.div
