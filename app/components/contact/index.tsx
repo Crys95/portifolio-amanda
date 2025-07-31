@@ -11,10 +11,10 @@ export const ContactForm = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   const MockContacts = [
-    // {
-    //   url: 'https://github.com/Crys95',
-    //   icon: <TbBrandGithub />,
-    // },
+    {
+      url: 'https://github.com/Amyy-vs',
+      icon: <TbBrandGithub />,
+    },
     {
       url: 'https://www.linkedin.com/in/amanda-vieira-125204212/',
       icon: <TbBrandLinkedin />,

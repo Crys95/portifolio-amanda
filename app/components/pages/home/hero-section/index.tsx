@@ -60,7 +60,7 @@ export const HeroSection = () => {
             A constante vontade de evoluir é o que me impulsiona. Encaro cada
             desafio como uma oportunidade de me superar, expandir meu
             conhecimento e crescer tanto profissional quanto pessoalmente. A
-            jornada na programação é uma estrada sem fim — e estou empolgada
+            jornada na programação é uma estrada sem fim e estou empolgada
             para trilhá-la, sempre buscando me tornar a melhor desenvolvedora
             que posso ser.
           </p>
