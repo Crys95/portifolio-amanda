@@ -57,12 +57,10 @@ export const HeroSection = () => {
           </h2>
 
           <p className="text-gray-200 my-6 text-base sm:text-base">
-            A constante vontade de evoluir é o que me impulsiona. Encaro cada
-            desafio como uma oportunidade de me superar, expandir meu
-            conhecimento e crescer tanto profissional quanto pessoalmente. A
-            jornada na programação é uma estrada sem fim e estou empolgada
-            para trilhá-la, sempre buscando me tornar a melhor desenvolvedora
-            que posso ser.
+            A constante vontade de evoluir é o que me impulsiona. Encaro cada desafio como uma
+            oportunidade de me superar, expandir meu conhecimento e crescer tanto profissional quanto
+            pessoalmente. A jornada na programação é uma estrada sem fim, e estou empolgada para
+            trilhá-la, sempre buscando me tornar a melhor desenvolvedora que posso ser.
           </p>
 
           <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[550px]">
